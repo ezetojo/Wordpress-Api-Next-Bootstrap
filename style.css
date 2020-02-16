@@ -1,0 +1,90 @@
+:root {
+  --dark: #272b30;
+  --dark-dark: hsl(213, 10%, 11%);
+  --light: #f6f6f6;
+  --light-dark: hsl(0, 0%, 90%);
+}
+
+body {
+  line-height: 1.8;
+  transition: 0.5s ease;
+}
+
+.dark-mode-toggle > button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.dark-mode-toggle > button:focus {
+  outline: none;
+}
+
+body.light-mode {
+  background-color: var(--light);
+  color: var(--dark);
+  transition: background-color 0.3s ease;
+}
+
+body.dark-mode {
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+.dark-mode .card {
+  color: var(--light);
+  background: var(--dark-dark);
+  border: 1px solid var(--dark);
+}
+
+.light-mode .card {
+  color: var(--dark);
+  background: var(--light-dark);
+  border: 1px solid var(--light);
+}
+
+.dark-mode .card:hover {
+  background: var(--dark);
+  border: 1px solid var(--dark);
+}
+
+.light-mode .card:hover {
+  background: var(--light);
+  border: 1px solid var(--light);
+}
+
+.light-mode #category-list {
+  border-left: 3px solid var(--dark);
+  column-rule: 3px solid var(--dark);
+}
+.dark-mode #category-list {
+  border-left: 3px solid var(--light);
+  column-rule: 3px solid var(--light);
+}
+
+img:not(icon) {
+  width: 100%;
+  height: auto;
+  vertical-align: baseline;
+}
+
+.text-black {
+  color: #000;
+}
+
+.about-icon {
+  width: 50px;
+}
+
+.navbar-toggler {
+  border: 0;
+}
+
+.dark-mode #toggleBtn {
+  color: var(--light);
+}
+
+.light-mode #toggleBtn {
+  color: var(--dark);
+}
