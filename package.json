@@ -1,7 +1,7 @@
 {
-  "name": "nsbv-next",
-  "version": "1.0.0",
-  "description": "",
+  "name": "wordpress-api-next.js-bootstrap",
+  "version": "0.0.1",
+  "description": "experiment using Wordpress API, NEXTjs, Bootstrap",
   "main": "index.js",
   "dependencies": {
     "isomorphic-unfetch": "^3.0.0",
@@ -21,7 +21,16 @@
     "build": "next build",
     "start": "next start"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "wordpress api rest",
+    "nextjs",
+    "react",
+    "bootstrap",
+    "progress bar",
+    "svg icons",
+    "side menu",
+    "dark mode"
+  ],
+  "author": "Eze Tojo",
   "license": "ISC"
 }

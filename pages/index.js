@@ -6,7 +6,7 @@ const Index = props => (
     <h4 className="font-weight-bolder text-uppercase mb-4">
       Wordpress Api Next Bootstrap
     </h4>
-    <p>ADVISOR: This is an experiment.</p>
+    <p>DISCLAIMER: This is an experiment.</p>
   </Layout>
 );
 
