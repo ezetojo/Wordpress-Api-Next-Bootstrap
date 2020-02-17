@@ -18,12 +18,12 @@
   position: fixed;
   z-index: 101;
   top: 0;
-  left: 0;
+  left: -250px;
   background-color: var(--dark);
   padding-top: 5%;
-  transition: 0.5s;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  transform: translateX(-250px);
+  transform: translateX(0px);
+  transition: 0.5s;
 }
 
 .sidebar a:not(.closebtn) {

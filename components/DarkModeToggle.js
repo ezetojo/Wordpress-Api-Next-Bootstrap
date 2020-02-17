@@ -1,9 +1,8 @@
-import React from "react";
 import Icon from "../components/Icon.js";
 import useDarkMode from "use-dark-mode";
 
 const DarkModeToggle = () => {
-  const darkMode = useDarkMode(true);
+  const darkMode = useDarkMode(false);
   return (
     <div className="dark-mode-toggle">
       <button type="button" onClick={darkMode.toggle}>

@@ -1,8 +1,8 @@
 :root {
   --dark: #272b30;
-  --dark-dark: hsl(213, 10%, 11%);
+  --dark-dark: #191c1f;
   --light: #f6f6f6;
-  --light-dark: hsl(0, 0%, 90%);
+  --light-dark: #e6e6e6;
 }
 
 body {
@@ -81,8 +81,19 @@ img:not(icon) {
   border: 0;
 }
 
-.dark-mode #toggleBtn {
+.dark-mode #toggleBtn,
+.dark-mode .navbar-light .nav-link {
+  color: var(--white);
+}
+
+.dark-mode .navbar-light .nav-link:hover,
+.dark-mode .navbar-light .nav-link:focus {
   color: var(--light);
+}
+
+.dark-mode .navbar-light .nav-link.disabled,
+.dark-mode .navbar-light .nav-item.active .nav-link {
+  color: var(--light-dark);
 }
 
 .light-mode #toggleBtn {

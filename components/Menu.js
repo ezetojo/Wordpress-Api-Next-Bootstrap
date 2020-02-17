@@ -5,7 +5,7 @@ import style from "./Menu.module.css";
 
 function closeNav(event) {
   event.preventDefault();
-  document.getElementById("mainNav").style.transform = "translateX(-250px)";
+  document.getElementById("sideNav").style.transform = "translateX(0px)";
   document.getElementById("closeBtn").style.transform = "translateX(-1rem)";
   document.getElementById("menuOverlay").style.opacity = "0";
   setTimeout(() => {
@@ -29,7 +29,7 @@ export default function Menu() {
         id="menuOverlay"
         onClick={closeNav}
       ></div>
-      <div className={style.sidebar} id="mainNav">
+      <div className={style.sidebar} id="sideNav">
         <a href="#" className={style.closebtn} onClick={closeNav} id="closeBtn">
           <Icon
             icon="x.svg"

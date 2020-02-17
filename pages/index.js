@@ -7,6 +7,15 @@ const Index = props => (
       Wordpress Api Next Bootstrap
     </h4>
     <p>DISCLAIMER: This is an experiment.</p>
+    <p>
+      Source code available
+      <a
+        href="https://github.com/ezetojo/Wordpress-Api-Next-Bootstrap"
+        target="new"
+      >
+        https://github.com/ezetojo/Wordpress-Api-Next-Bootstrap
+      </a>
+    </p>
   </Layout>
 );
 
