@@ -1,4 +1,3 @@
-import fetch from "isomorphic-unfetch";
 import Head from "next/head";
 import Pills from "../components/Pills.js";
 import Layout from "../components/MyLayout.js";

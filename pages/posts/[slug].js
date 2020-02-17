@@ -6,21 +6,6 @@ function renderHtml(myHtmlData) {
   return { __html: myHtmlData };
 }
 
-function makeImgFluid(html) {
-  $text = preg_replace("/<img[^>]+>/i", "", $text);
-}
-
-// (function() {
-//   window.onload = function() {
-//     let images = document.querySelectorAll("img"),
-//       len = images !== null ? images.length : 0,
-//       i = 0;
-//     for (i; i < len; i++) {
-//       images[i].className += " img-fluid w-100";
-//     }
-//   };
-// });
-
 const Post = props => (
   <Layout>
     <Head>
